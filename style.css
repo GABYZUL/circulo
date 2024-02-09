@@ -1,0 +1,63 @@
+#container {
+    position: relative;
+}
+
+#elementCirculo {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 179, 250);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.but1,
+.but2,
+.but3,
+.but4,
+.but5,
+.but6{
+    margin: 5px;
+    z-index: 4;
+   
+}
+
+#butancho {
+    margin-top: 500px;
+    width: 700px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    border-radius: 20px;
+    z-index: 3;
+
+}
+#butmostrar {
+    margin-top: -590px;
+    width: 900px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    border-radius: 20px;
+    z-index: 2;
+
+}
